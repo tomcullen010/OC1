@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="OC1">28f328554fad36002d1d958f0310c7d6</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_snc_oc1_table">state=10^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="10"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint>Submitted Questions for Assignment</hint>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Questions for Assignment</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_snc_oc1_table</name>
+        <order>400</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>sysparm_userpref.x_snc_oc1_table.view=ama_admin&amp;sysparm_userpref.x_snc_oc1_table.view=ama_admin</query>
+        <report/>
+        <roles>x_snc_oc1.</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-16 11:31:28</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cf604cad13ad36008ac858a12244b036</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Questions for Assignment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OC1" source="x_snc_oc1">a8f328154fad36002d1d958f0310c758</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OC1">a8f328154fad36002d1d958f0310c758</sys_scope>
+        <sys_update_name>sys_app_module_cf604cad13ad36008ac858a12244b036</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-16 13:39:54</sys_updated_on>
+        <timeline_page/>
+        <title>Questions for Assignment</title>
+        <uncancelable>false</uncancelable>
+        <view_name>AMA view</view_name>
+        <window_name/>
+    </sys_app_module>
+</record_update>

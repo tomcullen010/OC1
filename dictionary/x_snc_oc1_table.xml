@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Oc1 Table" max_length="40" name="x_snc_oc1_table" type="collection">
+        <element label="Admin Group" max_length="32" name="admin_group" reference="sys_user_group" type="reference"/>
+        <element label="Assignment Group2" max_length="32" name="assignment_group2" read_only="true" reference="sys_user_group" type="reference"/>
+        <element label="Crewmember Delegate" max_length="32" name="crewmember_delegate" reference="sys_user" type="reference"/>
+        <element label="Delegate to Crewmember" max_length="40" name="delegate_to_crewmember" type="boolean"/>
+        <element label="Question" max_length="4000" name="question" type="string"/>
+        <element label="Requested Due Date" max_length="40" name="requested_due_date" type="glide_date"/>
+        <element label="Response" max_length="4000" name="response" type="string"/>
+        <element label="Survey Question1" max_length="40" name="survey_question1" type="string"/>
+        <element label="Survey Question2" max_length="40" name="survey_question2" type="string"/>
+        <element label="Survey Question3" max_length="40" name="survey_question3" type="string"/>
+        <element label="Survey Question 4" max_length="40" name="survey_question_4" type="string"/>
+        <element label="Title" max_length="40" name="title" type="string"/>
+    </element>
+</database>

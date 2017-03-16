@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>response</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-16 00:54:16</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>5beea19d4f2176002d1d958f0310c700</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>response</sys_name>
+        <sys_package display_value="OC1" source="x_snc_oc1">a8f328154fad36002d1d958f0310c758</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OC1">a8f328154fad36002d1d958f0310c758</sys_scope>
+        <sys_update_name>sys_ui_policy_action_5beea19d4f2176002d1d958f0310c700</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-16 00:54:16</sys_updated_on>
+        <table>x_snc_oc1_table</table>
+        <ui_policy display_value="150 - Hide Response field while state is submitted">e56e2d5d4f2176002d1d958f0310c722</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

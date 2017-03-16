@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_snc_oc1_table">stateIN40,50,60^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="40,50,60"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>400</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+//loop through fields and make read-only
+var fields = g_form.getEditableFields();  
+for (var x = 0; x < fields.length; x++) {  
+    g_form.setReadOnly(fields[x], true);  
+}  
+
+}]]></script_true>
+        <set_values/>
+        <short_description>400- Once Response is complete - make read all read only</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-16 11:04:31</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>914a77d913ad36008ac858a12244b0e6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>400- Once Response is complete - make read all read only</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OC1" source="x_snc_oc1">a8f328154fad36002d1d958f0310c758</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OC1">a8f328154fad36002d1d958f0310c758</sys_scope>
+        <sys_update_name>sys_ui_policy_914a77d913ad36008ac858a12244b0e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-16 11:09:48</sys_updated_on>
+        <table>x_snc_oc1_table</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>
