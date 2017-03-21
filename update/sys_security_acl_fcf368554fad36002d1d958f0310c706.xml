@@ -12,7 +12,7 @@
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-03-15 19:26:21</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>fcf368554fad36002d1d958f0310c706</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_oc1_table</sys_name>

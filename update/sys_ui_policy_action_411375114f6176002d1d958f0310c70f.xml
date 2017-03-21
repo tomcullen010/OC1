@@ -7,7 +7,7 @@
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-03-16 01:12:25</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>411375114f6176002d1d958f0310c70f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>requested_due_date</sys_name>

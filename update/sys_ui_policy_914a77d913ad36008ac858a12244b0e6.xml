@@ -30,7 +30,7 @@ for (var x = 0; x < fields.length; x++) {
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-03-16 11:04:31</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>914a77d913ad36008ac858a12244b0e6</sys_id>

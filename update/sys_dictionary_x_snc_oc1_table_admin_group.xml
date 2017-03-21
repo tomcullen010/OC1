@@ -52,8 +52,8 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-03-16 12:08:13</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>09f8c8e113ed36008ac858a12244b0f8</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7f3d8ac3db213200a049f8fdbf96194b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Admin Group</sys_name>
         <sys_package display_value="OC1" source="x_snc_oc1">a8f328154fad36002d1d958f0310c758</sys_package>
@@ -61,8 +61,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OC1">a8f328154fad36002d1d958f0310c758</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_oc1_table_admin_group</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-03-16 12:08:13</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-03-21 13:35:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

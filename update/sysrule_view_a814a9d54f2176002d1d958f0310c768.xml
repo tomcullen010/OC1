@@ -19,7 +19,7 @@
 	if (gs.hasRole("x_snc_oc1."))
 		answer = "ama_admin";
 	{return;}
-
+//ok just made an update
 answer = null; // set the new view to answer
 })(view, is_list);
 ]]></script>
@@ -30,7 +30,7 @@ answer = null; // set the new view to answer
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a814a9d54f2176002d1d958f0310c768</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>AMA admin view</sys_name>
         <sys_overrides/>
         <sys_package display_value="OC1" source="x_snc_oc1">a8f328154fad36002d1d958f0310c758</sys_package>
@@ -39,7 +39,7 @@ answer = null; // set the new view to answer
         <sys_scope display_value="OC1">a8f328154fad36002d1d958f0310c758</sys_scope>
         <sys_update_name>sysrule_view_a814a9d54f2176002d1d958f0310c768</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-03-16 13:49:00</sys_updated_on>
+        <sys_updated_on>2017-03-21 13:37:34</sys_updated_on>
         <table>x_snc_oc1_table</table>
         <view>AMA admin</view>
     </sysrule_view>

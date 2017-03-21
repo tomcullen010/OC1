@@ -83,7 +83,7 @@
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-03-16 15:44:47</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>09da30ad132176008ac858a12244b0aa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Open Channel Activity</sys_name>
