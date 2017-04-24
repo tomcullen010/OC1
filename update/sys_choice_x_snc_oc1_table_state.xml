@@ -86,7 +86,7 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Complete</label>
+            <label>Closed Complete</label>
             <language>en</language>
             <name>x_snc_oc1_table</name>
             <sequence>4</sequence>
@@ -95,9 +95,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>66f7a0194fad36002d1d958f0310c732</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-15 19:53:58</sys_updated_on>
+            <sys_updated_on>2017-04-24 14:48:28</sys_updated_on>
             <u_translation_log_id/>
             <value>40</value>
         </sys_choice>
@@ -106,7 +106,7 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Survey Sent</label>
+            <label>Closed Incomplete</label>
             <language>en</language>
             <name>x_snc_oc1_table</name>
             <sequence>5</sequence>
@@ -115,9 +115,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>7c1aa4594fad36002d1d958f0310c748</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-15 19:54:17</sys_updated_on>
+            <sys_updated_on>2017-04-24 14:49:03</sys_updated_on>
             <u_translation_log_id/>
             <value>50</value>
         </sys_choice>
@@ -125,7 +125,7 @@
             <dependent_value/>
             <element>state</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Archived</label>
             <language>en</language>
             <name>x_snc_oc1_table</name>
@@ -135,9 +135,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>464a28594fad36002d1d958f0310c7f7</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-15 19:54:31</sys_updated_on>
+            <sys_updated_on>2017-04-24 14:48:20</sys_updated_on>
             <u_translation_log_id/>
             <value>60</value>
         </sys_choice>
@@ -149,7 +149,7 @@
             <sys_created_on>2017-03-15 19:46:45</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>fb98a8194fad36002d1d958f0310c7e6</sys_id>
-            <sys_mod_count>24</sys_mod_count>
+            <sys_mod_count>27</sys_mod_count>
             <sys_name>state</sys_name>
             <sys_package display_value="OC1" source="x_snc_oc1">a8f328154fad36002d1d958f0310c758</sys_package>
             <sys_policy/>
@@ -157,7 +157,7 @@
             <sys_scope display_value="OC1">a8f328154fad36002d1d958f0310c758</sys_scope>
             <sys_update_name>sys_choice_x_snc_oc1_table_state</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-15 19:54:31</sys_updated_on>
+            <sys_updated_on>2017-04-24 14:49:03</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

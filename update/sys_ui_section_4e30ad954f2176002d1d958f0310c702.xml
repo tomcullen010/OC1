@@ -5,13 +5,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-16 08:29:57</sys_created_on>
-            <sys_id>af47df5d4fe176002d1d958f0310c75a</sys_id>
+            <sys_created_on>2017-04-24 20:17:14</sys_created_on>
+            <sys_id>5c3f6606139a36008ac858a12244b095</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_oc1_table" sys_domain="global" view="ce306d954f2176002d1d958f0310c7fd">4e30ad954f2176002d1d958f0310c702</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-16 08:29:57</sys_updated_on>
+            <sys_updated_on>2017-04-24 20:17:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,181 +19,125 @@
             <element>opened_by</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-16 08:29:57</sys_created_on>
-            <sys_id>2347df5d4fe176002d1d958f0310c75b</sys_id>
+            <sys_created_on>2017-04-24 20:17:14</sys_created_on>
+            <sys_id>d03f6606139a36008ac858a12244b096</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_oc1_table" sys_domain="global" view="ce306d954f2176002d1d958f0310c7fd">4e30ad954f2176002d1d958f0310c702</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-16 08:29:57</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assignment_group</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-16 08:29:57</sys_created_on>
-            <sys_id>a347df5d4fe176002d1d958f0310c75b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_oc1_table" sys_domain="global" view="ce306d954f2176002d1d958f0310c7fd">4e30ad954f2176002d1d958f0310c702</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-16 08:29:57</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assignment_group2</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-16 08:29:57</sys_created_on>
-            <sys_id>2747df5d4fe176002d1d958f0310c75b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_oc1_table" sys_domain="global" view="ce306d954f2176002d1d958f0310c7fd">4e30ad954f2176002d1d958f0310c702</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-16 08:29:57</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>delegate_to_crewmember</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-16 08:29:57</sys_created_on>
-            <sys_id>a747df5d4fe176002d1d958f0310c75b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_oc1_table" sys_domain="global" view="ce306d954f2176002d1d958f0310c7fd">4e30ad954f2176002d1d958f0310c702</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-16 08:29:57</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-16 08:29:57</sys_created_on>
-            <sys_id>2b47df5d4fe176002d1d958f0310c75b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_oc1_table" sys_domain="global" view="ce306d954f2176002d1d958f0310c7fd">4e30ad954f2176002d1d958f0310c702</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-16 08:29:57</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>state</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-16 08:29:57</sys_created_on>
-            <sys_id>ab47df5d4fe176002d1d958f0310c75b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_oc1_table" sys_domain="global" view="ce306d954f2176002d1d958f0310c7fd">4e30ad954f2176002d1d958f0310c702</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-16 08:29:57</sys_updated_on>
+            <sys_updated_on>2017-04-24 20:17:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>requested_due_date</element>
-            <position>7</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-16 08:29:57</sys_created_on>
-            <sys_id>2f47df5d4fe176002d1d958f0310c75b</sys_id>
+            <sys_created_on>2017-04-24 20:17:14</sys_created_on>
+            <sys_id>543f6606139a36008ac858a12244b096</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_oc1_table" sys_domain="global" view="ce306d954f2176002d1d958f0310c7fd">4e30ad954f2176002d1d958f0310c702</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-16 08:29:57</sys_updated_on>
+            <sys_updated_on>2017-04-24 20:17:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-04-24 20:17:14</sys_created_on>
+            <sys_id>d43f6606139a36008ac858a12244b096</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_oc1_table" sys_domain="global" view="ce306d954f2176002d1d958f0310c7fd">4e30ad954f2176002d1d958f0310c702</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-04-24 20:17:14</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-04-24 20:17:14</sys_created_on>
+            <sys_id>583f6606139a36008ac858a12244b096</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_oc1_table" sys_domain="global" view="ce306d954f2176002d1d958f0310c7fd">4e30ad954f2176002d1d958f0310c702</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-04-24 20:17:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assigned_to</element>
-            <position>8</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-16 08:29:57</sys_created_on>
-            <sys_id>af47df5d4fe176002d1d958f0310c75b</sys_id>
+            <sys_created_on>2017-04-24 20:17:14</sys_created_on>
+            <sys_id>d83f6606139a36008ac858a12244b096</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_oc1_table" sys_domain="global" view="ce306d954f2176002d1d958f0310c7fd">4e30ad954f2176002d1d958f0310c702</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-16 08:29:57</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>crewmember_delegate</element>
-            <position>9</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-16 08:29:57</sys_created_on>
-            <sys_id>2347df5d4fe176002d1d958f0310c75c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_oc1_table" sys_domain="global" view="ce306d954f2176002d1d958f0310c7fd">4e30ad954f2176002d1d958f0310c702</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-16 08:29:57</sys_updated_on>
+            <sys_updated_on>2017-04-24 20:17:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>10</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-16 08:29:57</sys_created_on>
-            <sys_id>a347df5d4fe176002d1d958f0310c75c</sys_id>
+            <sys_created_on>2017-04-24 20:17:14</sys_created_on>
+            <sys_id>5c3f6606139a36008ac858a12244b096</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_oc1_table" sys_domain="global" view="ce306d954f2176002d1d958f0310c7fd">4e30ad954f2176002d1d958f0310c702</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-16 08:29:57</sys_updated_on>
+            <sys_updated_on>2017-04-24 20:17:14</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>title</element>
-            <position>11</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-16 08:29:57</sys_created_on>
-            <sys_id>2747df5d4fe176002d1d958f0310c75c</sys_id>
+            <sys_created_on>2017-04-24 20:17:14</sys_created_on>
+            <sys_id>dc3f6606139a36008ac858a12244b096</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_oc1_table" sys_domain="global" view="ce306d954f2176002d1d958f0310c7fd">4e30ad954f2176002d1d958f0310c702</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-16 08:29:57</sys_updated_on>
+            <sys_updated_on>2017-04-24 20:17:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>question</element>
-            <position>12</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-16 08:29:57</sys_created_on>
-            <sys_id>a747df5d4fe176002d1d958f0310c75c</sys_id>
+            <sys_created_on>2017-04-24 20:17:14</sys_created_on>
+            <sys_id>503f6606139a36008ac858a12244b097</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_oc1_table" sys_domain="global" view="ce306d954f2176002d1d958f0310c7fd">4e30ad954f2176002d1d958f0310c702</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-16 08:29:57</sys_updated_on>
+            <sys_updated_on>2017-04-24 20:17:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>response</element>
-            <position>13</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-03-16 08:29:57</sys_created_on>
-            <sys_id>2b47df5d4fe176002d1d958f0310c75c</sys_id>
+            <sys_created_on>2017-04-24 20:17:14</sys_created_on>
+            <sys_id>d03f6606139a36008ac858a12244b097</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_oc1_table" sys_domain="global" view="ce306d954f2176002d1d958f0310c7fd">4e30ad954f2176002d1d958f0310c702</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-03-16 08:29:57</sys_updated_on>
+            <sys_updated_on>2017-04-24 20:17:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

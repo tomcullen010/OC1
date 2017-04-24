@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sys_ui_policy_action">
     <sys_ui_policy_action action="INSERT_OR_UPDATE">
-        <disabled>ignore</disabled>
-        <field>crewmember_delegate</field>
-        <mandatory>true</mandatory>
+        <disabled>true</disabled>
+        <field>requested_due_date</field>
+        <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-03-16 08:48:23</sys_created_on>
+        <sys_created_on>2017-04-24 20:09:06</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>6d5b1fdd4fe176002d1d958f0310c703</sys_id>
+        <sys_id>594da2c2139a36008ac858a12244b00b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>crewmember_delegate</sys_name>
+        <sys_name>requested_due_date</sys_name>
         <sys_package display_value="OC1" source="x_snc_oc1">a8f328154fad36002d1d958f0310c758</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OC1">a8f328154fad36002d1d958f0310c758</sys_scope>
-        <sys_update_name>sys_ui_policy_action_6d5b1fdd4fe176002d1d958f0310c703</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_594da2c2139a36008ac858a12244b00b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-03-16 08:48:23</sys_updated_on>
+        <sys_updated_on>2017-04-24 20:09:06</sys_updated_on>
         <table>x_snc_oc1_table</table>
-        <ui_policy display_value="350- If delegate crewmeber box is true .. display assignment fields">207a1bdd4fe176002d1d958f0310c766</ui_policy>
-        <visible>true</visible>
+        <ui_policy display_value="200- Once Submitted Make Title, Question, and Requested Due Date Read Only">c88838514fed36002d1d958f0310c787</ui_policy>
+        <visible>ignore</visible>
     </sys_ui_policy_action>
 </record_update>

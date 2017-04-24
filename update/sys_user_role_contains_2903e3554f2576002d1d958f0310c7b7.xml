@@ -2,7 +2,7 @@
 <record_update table="sys_user_role_contains">
     <sys_user_role_contains action="INSERT_OR_UPDATE">
         <contains display_value="x_snc_oc1.user" name="x_snc_oc1.user">6cf328554fad36002d1d958f0310c7d9</contains>
-        <role display_value="x_snc_oc1." name="x_snc_oc1.">42ea411d4fed36002d1d958f0310c77b</role>
+        <role display_value="x_snc_oc1.admin" name="x_snc_oc1.admin">42ea411d4fed36002d1d958f0310c77b</role>
         <sys_class_name>sys_user_role_contains</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-03-16 09:21:10</sys_created_on>

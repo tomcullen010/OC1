@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="x_snc_oc1_table" version="2" view="ama_admin">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Oc1 Table - AMA admin" name="x_snc_oc1_table" related_list="NULL" sys_domain="global" view="ce306d954f2176002d1d958f0310c7fd">12ce35c5139ab2008ac858a12244b0a2</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-04-21 14:11:49</sys_created_on>
+            <sys_id>d6ce35c5139ab2008ac858a12244b0a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-04-21 14:11:49</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Oc1 Table - AMA admin</calculated_name>
+            <filter/>
+            <name>x_snc_oc1_table</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-04-21 14:11:49</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>12ce35c5139ab2008ac858a12244b0a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Oc1 Table - AMA admin</sys_name>
+            <sys_package display_value="OC1" source="x_snc_oc1">a8f328154fad36002d1d958f0310c758</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="OC1">a8f328154fad36002d1d958f0310c758</sys_scope>
+            <sys_update_name>sys_ui_related_x_snc_oc1_table_ama_admin</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-04-21 14:11:49</sys_updated_on>
+            <sys_user/>
+            <view display_value="AMA admin" name="ama_admin">ce306d954f2176002d1d958f0310c7fd</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
