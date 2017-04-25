@@ -19,7 +19,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2017-03-15 21:58:34</sys_updated_on>
         <table>x_snc_oc1_table</table>
-        <ui_policy display_value="200- Once Submitted Make Title, Question, and Requested Due Date Read Only">c88838514fed36002d1d958f0310c787</ui_policy>
+        <ui_policy display_value="20- Once Submitted Make Title, Question, and Requested Due Date Read Only">c88838514fed36002d1d958f0310c787</ui_policy>
         <visible>ignore</visible>
     </sys_ui_policy_action>
 </record_update>

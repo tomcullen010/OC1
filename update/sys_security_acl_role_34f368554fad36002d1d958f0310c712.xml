@@ -6,8 +6,8 @@
         <sys_created_on>2017-03-15 19:26:21</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>34f368554fad36002d1d958f0310c712</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>x_snc_oc1_table.u_task_user</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_snc_oc1_table.x_snc_oc1.user</sys_name>
         <sys_package display_value="OC1" source="x_snc_oc1">a8f328154fad36002d1d958f0310c758</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
@@ -15,8 +15,8 @@
         <sys_security_acl display_value="x_snc_oc1_table">38f368554fad36002d1d958f0310c70e</sys_security_acl>
         <sys_update_name>sys_security_acl_role_34f368554fad36002d1d958f0310c712</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-04-24 21:01:00</sys_updated_on>
-        <sys_user_role display_value="u_task_user" name="u_task_user">b42349d54fed36002d1d958f0310c782</sys_user_role>
+        <sys_updated_on>2017-04-25 17:14:08</sys_updated_on>
+        <sys_user_role display_value="x_snc_oc1.user" name="x_snc_oc1.user">6cf328554fad36002d1d958f0310c7d9</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
 </record_update>

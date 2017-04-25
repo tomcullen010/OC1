@@ -5,7 +5,7 @@
         <active>true</active>
         <client>false</client>
         <comments/>
-        <condition>current.state==20 || current.state==30</condition>
+        <condition>(current.state==20 || current.state==30)&amp;&amp; gs.hasRole("x_snc_oc1.admin")</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_context_menu>false</form_context_menu>
@@ -34,7 +34,7 @@ current.update();]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8a983b9913ad36008ac858a12244b095</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Response Complete</sys_name>
         <sys_overrides/>
         <sys_package display_value="OC1" source="x_snc_oc1">a8f328154fad36002d1d958f0310c758</sys_package>
@@ -43,7 +43,7 @@ current.update();]]></script>
         <sys_scope display_value="OC1">a8f328154fad36002d1d958f0310c758</sys_scope>
         <sys_update_name>sys_ui_action_8a983b9913ad36008ac858a12244b095</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-03-16 13:26:34</sys_updated_on>
+        <sys_updated_on>2017-04-25 17:21:46</sys_updated_on>
         <table>x_snc_oc1_table</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

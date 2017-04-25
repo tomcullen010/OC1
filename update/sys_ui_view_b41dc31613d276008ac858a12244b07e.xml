@@ -3,23 +3,23 @@
     <sys_ui_view action="INSERT_OR_UPDATE">
         <group/>
         <hidden>false</hidden>
-        <name>ama_admin</name>
+        <name>05aa4f9213d276008ac858a12244b031</name>
         <roles/>
         <sys_class_name>sys_ui_view</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-03-15 23:49:40</sys_created_on>
+        <sys_created_on>2017-04-25 17:06:17</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>ce306d954f2176002d1d958f0310c7fd</sys_id>
+        <sys_id>b41dc31613d276008ac858a12244b07e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>AMA admin</sys_name>
+        <sys_name>05aa4f9213d276008ac858a12244b031</sys_name>
         <sys_package display_value="OC1" source="x_snc_oc1">a8f328154fad36002d1d958f0310c758</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="OC1">a8f328154fad36002d1d958f0310c758</sys_scope>
-        <sys_update_name>sys_ui_view_ce306d954f2176002d1d958f0310c7fd</sys_update_name>
+        <sys_update_name>sys_ui_view_b41dc31613d276008ac858a12244b07e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-03-15 23:49:40</sys_updated_on>
-        <title>AMA admin</title>
+        <sys_updated_on>2017-04-25 17:06:17</sys_updated_on>
+        <title>05aa4f9213d276008ac858a12244b031</title>
         <user/>
     </sys_ui_view>
 </record_update>

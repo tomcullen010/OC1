@@ -6,9 +6,8 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="x_snc_oc1_table">stateIN20,30^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORcrewmember_delegateDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="20,30"/>
+        <filter table="x_snc_oc1_table">stateIN20,30^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="20,30"/>
             <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
-            <item endquery="false" field="crewmember_delegate" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint>Questions that have been assigned to you</hint>
@@ -21,7 +20,7 @@
         <name>x_snc_oc1_table</name>
         <order>400</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>sysparm_userpref.x_snc_oc1_table.view=ama_admin&amp;sysparm_userpref.x_snc_oc1_table.view=ama_admin</query>
+        <query/>
         <report/>
         <roles/>
         <survey/>
@@ -33,7 +32,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bc643bdd4f2576002d1d958f0310c745</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Requires My Response</sys_name>
         <sys_overrides/>
         <sys_package display_value="OC1" source="x_snc_oc1">a8f328154fad36002d1d958f0310c758</sys_package>
@@ -42,11 +41,11 @@
         <sys_scope display_value="OC1">a8f328154fad36002d1d958f0310c758</sys_scope>
         <sys_update_name>sys_app_module_bc643bdd4f2576002d1d958f0310c745</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-04-24 20:44:15</sys_updated_on>
+        <sys_updated_on>2017-04-25 16:54:28</sys_updated_on>
         <timeline_page/>
         <title>Requires My Response</title>
         <uncancelable>false</uncancelable>
-        <view_name>AMA view</view_name>
+        <view_name/>
         <window_name/>
     </sys_app_module>
 </record_update>

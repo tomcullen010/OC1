@@ -18,10 +18,10 @@
         <list_context_menu>false</list_context_menu>
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
-        <name>Approve Question</name>
+        <name>Return</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[current.state = 30;
+        <script><![CDATA[//current.state = 30;
 current.update();]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -34,8 +34,8 @@ current.update();]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>adb0fd9d4f2176002d1d958f0310c775</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>Approve Question</sys_name>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Return</sys_name>
         <sys_overrides/>
         <sys_package display_value="OC1" source="x_snc_oc1">a8f328154fad36002d1d958f0310c758</sys_package>
         <sys_policy/>
@@ -43,7 +43,7 @@ current.update();]]></script>
         <sys_scope display_value="OC1">a8f328154fad36002d1d958f0310c758</sys_scope>
         <sys_update_name>sys_ui_action_adb0fd9d4f2176002d1d958f0310c775</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-04-24 21:09:56</sys_updated_on>
+        <sys_updated_on>2017-04-25 14:58:46</sys_updated_on>
         <table>x_snc_oc1_table</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
