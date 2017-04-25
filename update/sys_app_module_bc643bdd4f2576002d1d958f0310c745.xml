@@ -23,7 +23,7 @@
         <override_menu_roles>false</override_menu_roles>
         <query>sysparm_userpref.x_snc_oc1_table.view=ama_admin&amp;sysparm_userpref.x_snc_oc1_table.view=ama_admin</query>
         <report/>
-        <roles>x_snc_oc1.user</roles>
+        <roles/>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -33,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bc643bdd4f2576002d1d958f0310c745</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Requires My Response</sys_name>
         <sys_overrides/>
         <sys_package display_value="OC1" source="x_snc_oc1">a8f328154fad36002d1d958f0310c758</sys_package>
@@ -42,7 +42,7 @@
         <sys_scope display_value="OC1">a8f328154fad36002d1d958f0310c758</sys_scope>
         <sys_update_name>sys_app_module_bc643bdd4f2576002d1d958f0310c745</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-04-24 20:00:44</sys_updated_on>
+        <sys_updated_on>2017-04-24 20:44:15</sys_updated_on>
         <timeline_page/>
         <title>Requires My Response</title>
         <uncancelable>false</uncancelable>
