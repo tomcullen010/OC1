@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Oc1 Table" max_length="40" name="x_snc_oc1_table" sizeclass="1" text_index="true" type="collection">
+    <element extends="task" label="Oc1 Table" max_length="40" name="x_snc_oc1_table" sizeclass="2" text_index="true" type="collection">
         <element label="Admin Group" max_length="32" name="admin_group" reference="sys_user_group" type="reference"/>
         <element label="Assignment Group2" max_length="32" name="assignment_group2" read_only="true" reference="sys_user_group" type="reference"/>
         <element label="Crewmember Delegate" max_length="32" name="crewmember_delegate" reference="sys_user" type="reference"/>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description>Upload ATF Update Set stored in fix script</description>
+        <direct>false</direct>
+        <endpoint>x_snc_oc1_Upload ATF Tests.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide"
+	xmlns:j2="null" xmlns:g2="null">
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button class="btn btn-default icon-chevron-left navbar-btn"
+					onclick="history.back();">
+					<span class="sr-only">
+						${gs.getMessage('Back')}
+					</span>
+				</button>
+				<h1 style="display:inline-block;" class="navbar-title">${gs.getMessage('Import XML')}</h1>
+			</div>
+		</div>
+	</nav>
+	<div class="section-content">
+		<g:inline template="output_messages2.xml" />
+		<div class="row">
+			<j:if test="${!empty(sysparm_target)}">
+				<!-- message for the xml upload -->
+				<j:if test="${empty(sysparm_processing)}">
+					<div class="col-sm-12">
+						<label>
+							${gs.getMessage("Importing records from an XML file will not run Business Rules")}
+						</label>
+					</div>
+				</j:if>
+			</j:if>
+		</div>
+		<div class="col-sm-12" style="padding-top:25px;">
+			<label style="font-weight:bold;">${gs.getMessage('Step 1: Choose file to upload')}
+			</label>
+		</div>
+		<j:if test="${empty(sysparm_processing)}">
+			<!-- default action processor -->
+			<j:set var="sysparm_processing" value="sys_upload" />
+		</j:if>
+		<form action="${sysparm_processing}.do" method="post"
+			enctype="multipart/form-data">
+			<input value="${sysparm_upload_prefix}" name="sysparm_upload_prefix"
+				type="hidden" />
+			<input value="${sysparm_referring_url}" name="sysparm_referring_url"
+				type="hidden" />
+			<input value="${sysparm_target}" name="sysparm_target" type="hidden" />
+			<div class="row">
+				<div class="form-group is-required">
+					<label class="col-sm-4 control-label" for="attachFile" style="text-align:right;">
+						<span class="required-marker"></span>
+						${gs.getMessage('XML file')}
+					</label>
+					<div class="col-sm-8">
+						<input id="attachFile" name="attachFile" mandatory="true"
+							type="file" aria-required="true" />
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12" style="padding-top:25px;">
+				<label style="font-weight:bold;">${gs.getMessage('Step 2: Upload the file')}
+				</label>
+			</div>
+			<div class="form-group form-horizontal">
+				<div class="col-sm-4" style="text-align:right;"></div>
+				<div class="col-sm-8">
+					<input class="btn btn-primary" value="${gs.getMessage('Upload')}"
+						type="submit" />
+				</div>
+			</div>
+		</form>
+	</div>
+	<script>
+		onLoad();
+		function onLoad() {
+			if($$("#output_messages").length == 2) {
+				//a output_messages div added on top of nav bar by default.Take the
+				//content and add to one below navbar on page load.
+				$$("#output_messages")[1].replace($$("#output_messages")[0]);
+			}
+		}
+	</script>
+</j:jelly>]]></html>
+        <name>Upload ATF Tests</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-22 18:28:40</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>7d7b46c14f23f6002d1d958f0310c779</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Upload ATF Tests</sys_name>
+        <sys_package display_value="OC1" source="x_snc_oc1">a8f328154fad36002d1d958f0310c758</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OC1">a8f328154fad36002d1d958f0310c758</sys_scope>
+        <sys_update_name>sys_ui_page_7d7b46c14f23f6002d1d958f0310c779</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-22 18:28:40</sys_updated_on>
+    </sys_ui_page>
+</record_update>
