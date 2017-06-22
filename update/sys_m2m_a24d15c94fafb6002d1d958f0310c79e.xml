@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_snc_oc1_table</from_table>
+        <m2m_from_field>oc1_table</m2m_from_field>
+        <m2m_from_label>Test Suites</m2m_from_label>
+        <m2m_table>x_snc_oc1_m2m_test_suites_oc1_tables</m2m_table>
+        <m2m_to_field>test_suite</m2m_to_field>
+        <m2m_to_label>Oc1 Tables</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-22 15:05:16</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>a24d15c94fafb6002d1d958f0310c79e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_oc1_m2m_test_suites_oc1_tables</sys_name>
+        <sys_package display_value="OC1" source="x_snc_oc1">a8f328154fad36002d1d958f0310c758</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OC1">a8f328154fad36002d1d958f0310c758</sys_scope>
+        <sys_update_name>sys_m2m_a24d15c94fafb6002d1d958f0310c79e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-22 15:05:16</sys_updated_on>
+        <to_table>sys_atf_test_suite</to_table>
+    </sys_m2m>
+</record_update>
