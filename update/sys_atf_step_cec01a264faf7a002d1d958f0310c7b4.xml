@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Update a record into 'sysapproval_approver' with the following values: 
+Update the value of the field 'State' to 'Approved'
+Update the value of the field 'Comments' to 'Approved by Beth!!'
+</description>
+        <display_name>Record Update</display_name>
+        <inputs/>
+        <inputs/>
+        <order>8</order>
+        <step_config display_value="Record Update">17a72288df60220062fe6c7a4df26397</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-27 10:40:43</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>cec01a264faf7a002d1d958f0310c7b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Update</sys_name>
+        <sys_package display_value="OC1" source="x_snc_oc1">a8f328154fad36002d1d958f0310c758</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="OC1">a8f328154fad36002d1d958f0310c758</sys_scope>
+        <sys_update_name>sys_atf_step_cec01a264faf7a002d1d958f0310c7b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-27 10:40:43</sys_updated_on>
+        <table>sysapproval_approver</table>
+        <test display_value="OC1 Scoped Application TEST 1">af0ccea24faf7a002d1d958f0310c726</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=cec01a264faf7a002d1d958f0310c7b4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>cec01a264faf7a002d1d958f0310c7b4</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-27 10:40:43</sys_created_on>
+        <sys_id>1ff01a664faf7a002d1d958f0310c7e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-27 10:40:43</sys_updated_on>
+        <value>state=approved^comments=Approved by Beth!!^EQ</value>
+        <variable display_value="">bc4c43935320220002c6435723dc34a2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>cec01a264faf7a002d1d958f0310c7b4</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-27 10:40:43</sys_created_on>
+        <sys_id>53f01a664faf7a002d1d958f0310c7e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-27 10:40:43</sys_updated_on>
+        <value/>
+        <variable display_value="">501c8f535320220002c6435723dc34da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>cec01a264faf7a002d1d958f0310c7b4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-27 10:40:43</sys_created_on>
+        <sys_id>9bf01a664faf7a002d1d958f0310c7e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-27 10:40:43</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">46dbcb535320220002c6435723dc3409</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>cec01a264faf7a002d1d958f0310c7b4</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-27 10:40:43</sys_created_on>
+        <sys_id>d3f01a664faf7a002d1d958f0310c7e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-27 10:40:43</sys_updated_on>
+        <value>sysapproval_approver</value>
+        <variable display_value="">53fb0f535320220002c6435723dc34ec</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=cec01a264faf7a002d1d958f0310c7b4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>cec01a264faf7a002d1d958f0310c7b4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-27 10:40:43</sys_created_on>
+        <sys_id>dff01a664faf7a002d1d958f0310c7e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-27 10:40:43</sys_updated_on>
+        <table>var__m_atf_input_variable_17a72288df60220062fe6c7a4df26397</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_id</field>
+        <id>cec01a264faf7a002d1d958f0310c7b4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-27 10:40:43</sys_created_on>
+        <sys_id>5bf01a664faf7a002d1d958f0310c7e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-27 10:40:43</sys_updated_on>
+        <table>var__m_atf_input_variable_17a72288df60220062fe6c7a4df26397</table>
+        <value>{{step['fa6ec2264faf7a002d1d958f0310c7e3'].first_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>cec01a264faf7a002d1d958f0310c7b4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-27 10:40:43</sys_created_on>
+        <sys_id>1ff01a664faf7a002d1d958f0310c7e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-27 10:40:43</sys_updated_on>
+        <table>var__m_atf_input_variable_17a72288df60220062fe6c7a4df26397</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
